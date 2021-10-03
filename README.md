@@ -14,3 +14,9 @@ mvn archetype:generate "-DgroupId=com.peas" "-DartifactId=peas" "-DarchetypeArti
 ```shell
 mvn install
 ```
+
+- To process `antlr4` grammar, we run (more information at https://www.antlr.org/api/maven-plugin/latest/plugin-info.html):
+
+```shell
+mvn antlr4:antlr4
+```
